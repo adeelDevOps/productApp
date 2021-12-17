@@ -1,0 +1,20 @@
+*{
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+  font-family: 'Roboto', sans-serif;
+}
+.carousel-item img{
+  width: 100%;
+  height: 93vh;
+}
+.About-img{
+  min-width: 100%;
+  max-height: 280px;
+}
+.style{
+  background-color:#00e1ff;
+}
+footer p{
+  margin-bottom: 0px;
+}
