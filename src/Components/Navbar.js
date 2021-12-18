@@ -1,3 +1,4 @@
+import logo from "../Images/iconLogo.png";
 export const NavBar = () => {
   return (
     <nav class="navbar navbar-expand-lg navbar-light bg-light">
@@ -8,7 +9,7 @@ export const NavBar = () => {
           href="/"
           style={{ textDecoration: "none" }}
         >
-          <h3>Web Name</h3>
+          <h3><img src={logo} alt="" height="40px"/> Arshad store</h3>
         </a>
         <button
           class="navbar-toggler"
